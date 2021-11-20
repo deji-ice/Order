@@ -1,0 +1,139 @@
+.card{
+    font-family: 'Shippori Antique', sans-serif;
+    border-radius: 20px;
+ 
+  display: flex;
+  flex-direction: column;
+    background: rgb(255, 255, 255);
+    width: 25.7rem;
+    height:590px;
+    
+    align-items: center;
+    box-shadow: 4px 10px 10px -3px rgb(0, 0, 0);
+}
+#img{
+   height: 100%;
+    margin-bottom: 20px;
+    width: 412px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    flex-direction: column; 
+    object-position: center top;
+}
+#AP{
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(31, 47, 86);
+}
+#fif{
+    font-size: 13px;
+}
+.pay{
+    border-radius: 20px;
+    display: flex;
+    color: rgb(114, 128, 167);
+    width: 21rem;
+    background-color: hsl(225, 100%, 98%);
+    align-items: center;
+}
+
+#id{
+    display: flex;
+   
+}
+
+/* CSS */
+.button-9 {
+  appearance: button;
+  backface-visibility: hidden;
+  background-color: hsl(245, 74%, 62%);
+  border-radius: 6px;
+  border-width: 0;
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Ubuntu,sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  height: 49px;
+  line-height: 1.15;
+  margin: 12px 0 0;
+  outline: none;
+  overflow: hidden;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transform: translateZ(0);
+  transition: all .2s,box-shadow .08s ease-in;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 70%;
+}
+.Music{
+    width:40px;
+    height:40px;
+    color: rgb(145, 145, 145);
+    padding-right: 30px;
+    padding-left: 20px;
+    color: hsl(224, 23%, 55%);
+}
+#order{
+    color: hsl(223, 47%, 23%);
+}
+.button-9:disabled {
+  cursor: default;
+}
+.button-9:hover {
+    background-color: hsl(245, 74%, 67%);
+  }
+
+.button-9:focus {
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .2) 0 6px 15px 0, rgba(0, 0, 0, .1) 0 2px 2px 0, rgba(50, 151, 211, .3) 0 0 0 4px;
+}
+ 
+#annual{
+    align-self: center;
+    padding-right: 100px;
+    
+}
+
+a{
+   
+    font-size: 13px;
+    color: hsl(245, 75%, 52%);
+    font-weight: bold;
+}
+
+a:hover {
+    color: hsl(245, 74%, 62%);
+    text-decoration: none;
+  }
+#summary{
+    text-align: center;
+    width: 18rem;
+    font-size: 14px;
+    color: hsl(224, 23%, 55%);
+}
+body{
+    
+    display: flex;
+    justify-content: center;
+    
+    background-image: url("isaac-quesada-1AyqZcC7zSg-unsplash.jpg");
+}
+#cancel{
+    color: rgb(114, 128, 167);
+    text-decoration: none;
+    font-size: 15px;
+}
+#cancel:hover {
+    color: rgb(36, 36, 36);
+    text-decoration: none;
+}
+
+#can{
+    padding-top: 22px;
+}
